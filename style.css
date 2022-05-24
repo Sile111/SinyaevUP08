@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.firstcontainer{
+    position: relative;
+    width: 1920px;
+    height: 800px;
+    background-image: url(/24.05/assets/images/background.png);
+    margin: 0 auto;
+}
+.header{
+    width: 1920px;
+    height: 80px;
+    background-image: url(/24.05/assets/images/headerbg.svg);
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    width: 140px;
+    justify-content: space-between;
+    margin-left: 40px;
+    align-items: center;
+}
+.logo__text{
+    font-family: TitilliumWeb;
+    font-size: 24px;
+    color: white;
+    width: 75px;
+    line-height: 120%;
+    text-align: center
+}
+.menu{
+    margin-left:555px;
+}
+.menu__list{
+    list-style: none;
+    display: flex;
+    width: 454px;
+    justify-content: space-between;
+}
+.menu__link{
+    text-decoration: none;
+    color: white;
+}
+.menu__item{
+    font-family: OpenSansSemiBold;
+    font-size: 14px;
+}
+.firstwrapper{
+    margin: 0 auto;
+    width: 1110px;
+    height: 720px;
+}
+.rectangle{
+    width: 444px;
+    height: 720px;
+    background-image: url(/24.05/assets/images/blue-rectangle.png);
+}
+.banner{
+    position: absolute;
+    top: 282px;
+    left: 595px;
+    width: 600px;
+    height: 317px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.banner__text{
+    width: 445px;
+    font-family: OpenSans;
+    font-size: 16px;
+    color: white;
+}
+.banner__title{
+    font-family: Oswald;
+    font-size: 48px;
+    color: white;
+    letter-spacing: 1%;
+}
+.banner__button{
+    width: 160px;
+    height: 51px;
+    background: none;
+    border: 3px solid white;
+    font-family: OpenSansSemiBold;
+    font-size: 16px;
+    color: white;
+}
