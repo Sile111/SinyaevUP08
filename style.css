@@ -172,3 +172,75 @@
     font-size: 14px;
     color: #343434;
 }
+.rent{
+    position: absolute;
+    width: 1110px;
+    height: 520px;
+    left: 405px;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.rent__head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.rent__title{
+    display: flex;
+}
+.rent__writing{
+    font-family: Oswald;
+    font-size: 30px;
+    color: #343434;
+    letter-spacing: 5%;
+    margin-left: 40px;
+}
+.rent__choice{
+    display: flex;
+    margin: 0 auto;
+    width: 211px;
+    justify-content: space-between;
+    font-size: 24px;
+    font-family: Oswald;
+    color: #343434;
+    margin-bottom: 50px;
+}
+.rent__leftchoice{
+    color: #005BC1;
+    border-bottom: #005BC1 solid 3px;
+}
+.rent__offers{
+    width: 1110px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.rent__offer{
+    width: 350px;
+    height: 300px;
+    position: relative;
+}
+.rent__img{
+    width: inherit;
+    height: inherit;
+}
+.rent__textwrapper{
+    width: 265px;
+    height: 86px;
+    background-color: #005BC1;
+    position: absolute;
+    left: 85px;
+    bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.rent__text{
+    margin-left: 21px;
+    width: 190px;
+    font-size: 18px;
+    font-family: Oswald;
+    color: white;
+    letter-spacing: 5%;
+}
