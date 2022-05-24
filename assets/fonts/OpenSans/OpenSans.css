@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@font-face {
+    font-family: OpenSans;
+    src: url(OpenSans-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: OpenSansBold;
+    src: url(OpenSans-Bold.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: OpenSansSemiBold;
+    src: url(OpenSans-SemiBold.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
