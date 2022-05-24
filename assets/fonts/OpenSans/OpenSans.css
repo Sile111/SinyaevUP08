@@ -6,6 +6,12 @@
     font-weight: normal;
 }
 @font-face {
+    font-family: OpenSansLight;
+    src: url(OpenSans-Light.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
     font-family: OpenSansBold;
     src: url(OpenSans-Bold.ttf);
     font-style: normal;

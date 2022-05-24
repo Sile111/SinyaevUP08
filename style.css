@@ -89,3 +89,86 @@
     font-size: 16px;
     color: white;
 }
+.wrapper{
+    position: relative;
+    width: 1920px;
+    height: 880px;
+    margin: 0 auto;
+}
+.slider{
+    position: absolute;
+    width: 1110px;
+    height: 520px;
+    left: 405px;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.slider__head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.slider__title{
+    display: flex;
+}
+.slider__arrows{
+    display: flex;
+}
+.slider__writing{
+    font-family: Oswald;
+    font-size: 30px;
+    color: #343434;
+    letter-spacing: 5%;
+    margin-left: 40px;
+}
+.slider__square{
+    display: flex;
+    width: 55px;
+    height: 55px;
+    border: 2px solid #005BC1;
+    align-items: center;
+    justify-content: center;
+}
+.slider__offers{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+.slider__sides{
+    width: 540px;
+    height: 400px;
+    position: relative;
+}
+.slider__img{
+    width: 540px;
+    height: 400px;
+}
+.slider__block{
+    top: 255px;
+    left: 255px;
+    position: absolute;
+    width: 250px;
+    height: 110px;
+    background-color: white;
+}
+.slider__textwrapper{
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 200px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.slider__name{
+    font-family: Oswald;
+    font-size: 18px;
+    color: #343434;
+}
+.slider__desc{
+    font-family: OpenSansLight;
+    font-size: 14px;
+    color: #343434;
+}
