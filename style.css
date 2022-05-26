@@ -5,6 +5,10 @@
 .link{
     text-decoration: none;
 }
+html, body {
+    max-width: 100%; 
+    overflow-x: hidden; 
+}
 .firstcontainer{
     position: relative;
     width: 1920px;
@@ -180,7 +184,7 @@
     width: 1110px;
     height: 520px;
     left: 405px;
-    top: 150px;
+    top: 0px;
     display: flex;
     flex-direction: column;
 }
