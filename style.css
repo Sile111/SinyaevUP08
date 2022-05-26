@@ -99,7 +99,13 @@ html, body {
 .wrapper{
     position: relative;
     width: 1920px;
-    height: 880px;
+    height: 820px;
+    margin: 0 auto;
+}
+.secondwrapper{
+    position: relative;
+    width: 1920px;
+    height: 655px;
     margin: 0 auto;
 }
 .slider{
@@ -137,6 +143,10 @@ html, body {
     border: 2px solid #005BC1;
     align-items: center;
     justify-content: center;
+    transition: 0.2s;
+}
+.slider__square:hover{
+    transform: scale(1.1);
 }
 .slider__offers{
     display: flex;
@@ -251,4 +261,99 @@ html, body {
     color: white;
     letter-spacing: 5%;
 }
-
+.rent{
+    position: absolute;
+    width: 1110px;
+    height: 520px;
+    left: 405px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.rent__head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.rent__title{
+    display: flex;
+}
+.rent__writing{
+    font-family: Oswald;
+    font-size: 30px;
+    color: #343434;
+    letter-spacing: 5%;
+    margin-left: 40px;
+}
+.rent__wrapper{
+    display: flex;
+    width: 1110px;
+    justify-content: space-between;
+}
+.rent__desc{
+    width: 445px;
+    height: 394px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.rent__offer{
+    width: 665px;
+    height: 394px;
+    border: #005BC1 solid 3px;
+}
+.rent__descwriting{
+    font-family: OpenSansLight;
+    font-size: 18px;
+    color: #343434;
+}
+.rent__head{
+    width: 605px;
+    height: 55px;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 29px;
+}
+.rent__item{
+    width: 615px;
+    height: 250px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.rent__img{
+    width: 255px;
+    height: 250px;
+}
+.rent__description{
+    width: 330px;
+    height: 206px;
+}
+.rent__title{
+    margin-bottom: 30px;
+    font-family: Oswald;
+    font-size: 16px;
+    color: #343434;
+    letter-spacing: 1px;
+}
+.rent__list{
+    width: 270px;
+    height: 152px;
+    margin-left: 15px;
+}
+.rent__itemlist{
+    margin-bottom: 16px;
+    font-family: OpenSansLight;
+    font-size: 14px;
+    color: #343434;
+}
+.rent__maintitle{
+    font-family: Oswald;
+    font-size: 18px;
+    color: #343434;
+    letter-spacing: 1px;
+}
