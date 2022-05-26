@@ -56,6 +56,10 @@ html{
 .menu__item{
     font-family: OpenSansSemiBold;
     font-size: 14px;
+    transition: 0.2s;
+}
+.menu__item:hover{
+    transform: scale(1.1);
 }
 .firstwrapper{
     margin: 0 auto;
@@ -458,6 +462,7 @@ html{
     font-family: Oswald;
     font-size: 18px;
     color: #343434;
+    transition: 0.2s ease-in-out
 }
 .news__descheaddate{
     font-family: OpenSansSemiBold;
@@ -520,6 +525,7 @@ html{
     justify-content: space-between;
     align-items: flex-start;
     border-bottom: 1px solid white;
+    margin-bottom: 6px;
 }
 .footer__secondline{
     width: 1110px;
@@ -562,6 +568,7 @@ html{
     font-family: Oswald;
     font-size: 18px;
     color: white;
+    margin-top: -5px;
 }
 .footer__text{
     font-family: OpenSansSemiBold;
